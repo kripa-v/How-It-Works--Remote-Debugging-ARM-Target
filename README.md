@@ -1,9 +1,10 @@
-# cmsis-dap-report
-A study on the propagation of target "step" command from gdb running on the host to the remote target, Mbed LPC1768 (ARM Cortex M3).
+# Remote Debugging ARM Cortex Target:
 
-This report includes a brief study of the following components, and how "step" command entered at the host is propagated through these down to the target's Debug Registers:
+A case study on the propagation of target "step" command from gdb running on the host PC to the remote target, Mbed LPC1768 (ARM Cortex M3).
 
-1) The architecture of gdb
+This report includes a brief study of the following components: 
+
+1) The architecture and internals of gdb
 
 2) Remote Serial Protocol
 
@@ -13,6 +14,7 @@ This report includes a brief study of the following components, and how "step" c
 
 5) ARM Debug Interface's Serial Wire Debug Protocol. 
 
+It also analyzes how "step" command entered at the host is propagated down to the target's Debug Registers, through these components, and analyzes the call stack in each case. 
 
 Files:
 
