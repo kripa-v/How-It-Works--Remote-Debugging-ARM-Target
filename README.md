@@ -18,9 +18,9 @@ It also analyzes how "step" command entered at the host is propagated down to th
 
 The setup for this study comprises of following resources and tools :
 1) Mbed board with :
-Target : LPC1768 ( ARM Cortex M3 )
-Interface CPU : LPC11U24 (ARM Cortex M0 )
-Interface Firmware : cmsis_dap
+  Target : LPC1768 ( ARM Cortex M3 )
+  Interface CPU : LPC11U24 (ARM Cortex M0 )
+  Interface Firmware : cmsis_dap
 2) Ubuntu 14.04 Host PC
 3) Beagle USB 5000 v2 USB Protocol Analyzer
 4) arm-none-eabi toolchain
