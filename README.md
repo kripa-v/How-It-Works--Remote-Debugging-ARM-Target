@@ -37,4 +37,7 @@ StepCommand_ReportPresentation.pptx  - Report Presentation
 
 mbed_*.tdc                           - Beagle USB 5000 Protocol Analyzer captures of the relevant USB Protocol Transactions.
 
-![alt text](https://github.com/kripa-v/How-It-Works--Remote-Debugging-ARM-Target/blob/master/cmsis.jpg?raw=true)
+![System Overview](https://github.com/kripa-v/How-It-Works--Remote-Debugging-ARM-Target/blob/master/img/cmsis.jpg?raw=true)
+
+![pyOCD Internals](https://github.com/kripa-v/How-It-Works--Remote-Debugging-ARM-Target/blob/master/img/py_OCD.jpg?raw=true)
+
